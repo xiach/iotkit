@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+		<meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		
+        <title>最近7天历史数据</title>
+    </head>
+    <body>
+        <div id="app" style="width:100%;height:100%; background:#ffffff;">
+			<div style="height:46px;width:100%;position: fixed;">
+				<div style="height:30px;margin: 4px 55px;line-height: 30px;text-align: center;
+				font-size: 17px;font-weight: 400;border: 1px solid #a0a0a0;border-radius: 4px;color: #646464;
+				background-color: #ffffff;">{{title}}</div>
+			</div>
+			<div style="position:absolute;top:15%;left:5%;font-size:16px;">PM2.5(室内)</div>
+			<div id="myPMChart" style="position: absolute;left: 4%;top:10%;width:85%;height: 80%;"></div>
+			<div style="position:absolute;top:78%;left:85%;width:15%;height:5%;font-size:16px;">日期</div>
+			<!--<div style="position:absolute;top:52%;left:5%;font-size:16px;">CO2(室内)</div>
+			<div id="myCO2Chart" style="position: absolute;left: 4%;top:54%;width:85%;height: 40%;"></div>
+			<div style="position:absolute;top:84%;left:85%;width:15%;height:5%;font-size:16px;">日期</div> -->
+        </div>
+		<script type="text/javascript"  src="http://cdn.jsdelivr.net/npm/vue"></script>
+		<script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script type="text/javascript" src="./echarts.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+		console.log("===================share b==================")
+		var app = new Vue({
+			  el: '#app',
+			  data: {
+				title:"",
+				share:false,
+				dayStrs:[],
+				days:[],
+				msg: 'Welcome to Your Vue.js App',
+				option_PM: {
+				  xAxis: {
+					  //type: 'category',
+					  
+					  axisLabel: {
+						  show: true,
+						  textStyle: {
+							  color: '#ccc'
+						  },
+						  formatter:this.formart
+					  },
+					  axisLine:{  
+						lineStyle:{  
+							color:'#ccc',  
+						  }  
+					  }, 
+
+					  //data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+				  },
+				  yAxis: {
+					  type : 'value',
+					  max:300,
+					  splitNumber:59,
+					  axisLabel: {
+						  formatter:function(value){
+							  if (value == 35){
+
+								return '优'
+							  }else if (value == 75){
+								return '良'
+							  }else if (value == 115){
+								return '差'
+							  }
+						  }
+					  },
+					  splitLine:{
+						  show:false,
+					  },
+					  axisTick:{
+						  show:false
+					  },
+					  axisLine:{  
+						lineStyle:{  
+							color:'#ccc',  
+						  }  
+					  }, 
+
+				  },
+				  series: [{
+					  data: [[0,75], [1,93], [2,120], [3,200], [4,180], [5,128], [6,90]],
+					  type: 'line',
+					  smooth: true,
+					  itemStyle : {  
+						  normal : {  
+							  color:'#00FF00',
+							  lineStyle:{  
+								  color:'#00FF00'  
+							  }  
+						  }  
+					  }, 
+					  markLine: {
+									silent: true,
+									symbol:["",""],
+									itemStyle:{normal:{lineStyle:{color:'#a0a0a0'},label:{show:false,position:'left'}}},
+									data: [{
+										yAxis: 35
+									},{
+										yAxis: 75
+									},{
+										yAxis: 115
+									}]
+								}
+				  }]
+				},
+				option_CO2: {
+				 /*grid: { 
+					 x: 40,
+					 x2: 10,
+				 },*/
+				  xAxis: {
+					  axisLabel: {
+						  show: true,
+						  textStyle: {
+							  color: '#ccc'
+						  },
+						  formatter:this.formart
+					  },
+					  axisLine:{  
+						lineStyle:{  
+							color:'#ccc',  
+						  }  
+					  }, 
+				  },
+				  yAxis: {
+					  type : 'value',
+					  max:4000,
+					  splitNumber:39,
+					  axisLabel: {
+						  formatter:function(value){
+							  if (value == 400){
+
+								return '优'
+							  }else if (value == 1000){
+								return '良'
+							  }else if (value == 2000){
+								return '差'
+							  }
+						  }
+					  },
+					  splitLine:{
+						  show:false,
+					  },
+					  axisTick:{
+						  show:false
+					  },
+					  axisLine:{  
+						lineStyle:{  
+							color:'#ccc',  
+						  }  
+					  }, 
+				  },
+				  series: [{
+					  data: [[0,750], [1,930], [2,1200], [3,3800], [4,2560], [5,1280], [6,900]],
+					  type: 'line',
+					  smooth: true,
+					  itemStyle : {  
+						  normal : {  
+							  color:'#00FF00',
+							  lineStyle:{  
+								  color:'#00FF00'  
+							  }  
+						  }  
+					  },
+					  markLine: {
+									silent: true,
+									symbol:["",""],
+									itemStyle:{normal:{lineStyle:{color:'#a0a0a0'},label:{show:false,position:'left'}}},
+									data: [{
+										yAxis: 400
+									},{
+										yAxis: 1000
+									},{
+										yAxis: 2000
+									}]
+								}
+				  }]
+				},
+			  },
+				mounted() {
+					var self = this
+					var para = getUrlRequest()
+					console.log("para:" + JSON.stringify(para))
+					if (para && para.title){
+						self.title = para.title
+					}else{
+						self.title = document.title
+					}
+					if (para && para.code){
+						var url = "http://smart.royalcloud-tech.com:8080/api/device/history/"
+						var date = new Date()					
+						var endtime = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate()
+						date = new Date(date.getTime() - 3600*24*6*1000)
+						var starttime = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate()
+						/*axios.get(url, {
+								params: {
+								code: para.code,
+								capability: "s_co2",
+								starttime: starttime,
+								endtime: endtime,
+								aggregation:"yes"
+							}
+						}).then(function (response) {
+							console.log("response:" + JSON.stringify(response))
+							if (response.status == 200){
+								self.option_CO2.series[0].data = self.data2arr(response.data.result)
+								self.drawLine()
+							}
+						}).catch(function (error) {
+							console.log(error)
+						})*/
+						
+						axios.get(url, {
+								params: {
+								code: para.code,
+								capability: "S_PM25",
+								starttime: starttime,
+								endtime: endtime,
+								aggregation:"yes"
+							}
+						}).then(function (response) {
+							console.log("response:" + JSON.stringify(response))
+							if (response.status == 200){
+								self.option_PM.series[0].data = self.data2arr(response.data.result)
+								self.drawLine();
+							}
+						}).catch(function (error) {
+							console.log(error);
+						})
+					}
+					this.drawLine()
+				},
+				methods: {
+					formart(value,idx){
+						console.log("formart,i=" + idx +",day=" + this.days[idx]);
+						return this.days[idx]
+					},
+					data2arr(data){
+						console.log("data2arr=" + JSON.stringify(data))
+						var ret = [[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0]]
+						var strs = this.getDateStr()
+						if (data){
+							data.forEach(function(item, index){
+								strs.some(function(fullDay, idx){
+								  if (item.ts && item.ts.indexOf(fullDay) > -1){
+									ret[idx]= [idx, item.val]
+									return true
+								  }else{
+									return false
+								  }
+								})
+							})
+							console.log("data2arr=" + JSON.stringify(ret))
+							return ret
+						}else{
+							return ret
+						}
+					},
+					dateInput(){
+						var myDate = new Date();
+						var len = 7//this.option_PM.xAxis.data.length;
+						this.days[len-1] = myDate.getDate() + "日"
+
+						//this.option_PM.xAxis.data[len-1] = myDate.getDate() + "日"//toLocaleDateString().substring(5);
+						//this.option_CO2.xAxis.data[len-1] = myDate.getDate() + "日"//toLocaleDateString().substring(5);
+						for(var i = len-2; i >=0; i--)
+						{
+							var temp = myDate.getTime() - 86400*1000;
+							myDate = new Date(temp);
+							this.days[i] = myDate.getDate() + "日"
+							//this.option_PM.xAxis.data[i] = myDate.getDate() + "日"//toLocaleDateString().substring(5);
+							//this.option_CO2.xAxis.data[i] = myDate.getDate() + "日"//toLocaleDateString().substring(5);
+						}
+						console.log("this.days:",JSON.stringify(this.days));
+						this.option_PM.xAxis.axisLabel.formatter = this.formart
+						this.option_CO2.xAxis.axisLabel.formatter = this.formart
+					},
+					getDateStr(){
+
+					  if (this.dayStrs.length > 0){
+						console.log("getDateStr dayStrs:" + JSON.stringify(this.dayStrs))
+						return this.dayStrs
+					  }
+					  var tmpDate = new Date()
+					  var len = 7
+					  var mon = tmpDate.getMonth() + 1
+					  var day = tmpDate.getDate()
+					  this.dayStrs[len-1] = tmpDate.getFullYear()+ "-" + (mon<10?("0" + mon):mon) + "-" + (day<10?("0" + day):day)
+					  for(var i = len-2; i >=0; i--)
+					  {
+						  var temp = tmpDate.getTime() - 86400*1000;
+						  tmpDate = new Date(temp);
+						  mon = tmpDate.getMonth() + 1
+						  day = tmpDate.getDate()
+						  this.dayStrs[i] = tmpDate.getFullYear()+ "-" + (mon<10?("0" + mon):mon) + "-" + (day<10?("0" + day):day)
+					  }
+					  
+					  return this.dayStrs
+					},
+					drawLine(){
+						// 基于准备好的dom，初始化echarts实例
+						this.dateInput();
+						var myPMChart = echarts.init(document.getElementById('myPMChart'))
+						// 绘制图表   
+						myPMChart.setOption(this.option_PM);
+						//var myCO2Chart = echarts.init(document.getElementById('myCO2Chart'));
+						//myCO2Chart.setOption(this.option_CO2);
+					},
+				},
+			}
+		)
+		console.log("==============================qqq==================")
+		//获取URL参数
+		function getUrlRequest() {
+			var url = location.search;
+			var arrRequest = {};
+			if (url.indexOf("?") != -1) {
+				var str = url.substr(1);
+				strs = str.split("&");
+				for (var i = 0; i < strs.length; i++) {
+					arrRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+				}
+			}
+			return arrRequest;
+		}
+		console.log("==============================qqq==================")
+		console.log("allan :" + JSON.stringify( getUrlRequest()));
+
+		</script>
+    </body>
+</html>

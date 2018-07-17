@@ -1,0 +1,12 @@
+[Unit]
+Description=gmc monitor
+After=network.target
+
+[Service]
+Type=simple
+PIDFile=/data0/alpha/mqtt_monitor_gmc.pid
+
+ExecStartPre=
+ExecStart=/data0/alpha/env_alpha/bin/python /data0/alpha/smart/backend/utils/gmc.pyc
+ExecStop=/bin/kill -HUP $MAINPID
+Restart=on-failure

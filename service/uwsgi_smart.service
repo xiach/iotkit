@@ -1,0 +1,16 @@
+[Unit]
+Description=uWSGI daemon service
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/data0/alpha/uwsgi_smart.pid
+
+ExecStartPre=
+ExecStart=/data0/alpha/env_alpha/bin/uwsgi --ini /data0/alpha/smart/backend/deployment/service/uwsgi_smart.ini
+ExecStop=/data0/alpha/env_alpha/bin/uwsgi --stop /data0/alpha/uwsgi_smart.pid
+ExecReload=/data0/alpha/env_alpha/bin/uwsgi --reload /data0/alpha/uwsgi_smart.pid
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

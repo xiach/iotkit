@@ -1,0 +1,29 @@
+server {
+    listen                          8080;
+    server_name                     smart.royalcloud-tech.com 127.0.0.1;
+    access_log                      ./logs/smart.hack.access.log     main;
+    error_log                       ./logs/smart.hack.error.log      notice;
+
+    gzip on;
+    gzip_min_length 1k;
+    gzip_buffers 4 16k;
+    gzip_http_version 1.0;
+    gzip_comp_level 2;
+    gzip_types text/plain text/css application/javascript text/javascript application/x-javascript text/xml application/xml application/xml+rss application/json;
+    gzip_vary off;
+    gzip_disable "MSIE [1-6]\.";
+
+    location /api/device/auth/ {
+        include uwsgi_params;
+        uwsgi_pass 127.0.0.1:38002;
+    }
+    location /api/device/refresh/ {
+        include uwsgi_params;
+        uwsgi_pass 127.0.0.1:38002;
+    }
+    location /api/scene/hack/ {
+        include uwsgi_params;
+        uwsgi_pass 127.0.0.1:38002;
+    }
+}
+}

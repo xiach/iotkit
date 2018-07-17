@@ -1,0 +1,300 @@
+May 21 16:20:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:20:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:20:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:20:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:20:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:20:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:20:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:20:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x04\x00\
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L'
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L' 32
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x04\x00\
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L'
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L' 32
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc200035b8 b"\xaa\xefi\x84\xd6\n\xa1-\xd4\x00\x95\xdb\xad\xc9E\xdb\x890+\xdf\xee\xa7\x92.\x04Y\x
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b"\xaa\xefi\x84\xd6\n\xa1-\xd4\x00\x95\xdb\xad\xc9E\xdb\x890+\xdf\xee\xa7\x92.\x04Y\x07?y\xb4\xb0z\xce\xd4\xea|
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_PM25": "65535", "S_CYCLETIME": "3", "S_MODE": "-1", "s_co2": "255", "S_POWER": "0", "S_TVOC": "255", "S_FANSP
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\xff\xff\x00\x03\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff^\x00\x00
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc200035b8 b'~\xa7\x1cd\xc1A\n\xbb\xe4\xe9\x12\xac!\xcd+\x9c\xfa\xe86\x9e\x0e\x19\xdd\x96p\x9c\x7f\xeb\xfcd\xd1G
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/010102/08bc200035b8 b'~\xa7\x1cd\xc1A\n\xbb\xe4\xe9\x12\xac!\xcd+\x9c\xfa\xe86\x9e\x0e\x19\xdd\x96p\x9c\x7f\xeb
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "2", "s_co2": "400
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff$\x00\x00\x0
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'\x16x\xd4h\x10\xe9\xedP\xaaJ\x0033\xf2U\x85\xe3b\x82\x01\x13\xf5\xf9\xfc\xee\xda\xde 1\xd3\xfb\xed'
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'\x16x\xd4h\x10\xe9\xedP\xaaJ\x0033\xf2U\x85\xe3b\x82\x01\x13\xf5\xf9\xfc\xee\xda\xde 1\xd3\xfb\x
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x04\x00\
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L'
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L' 32
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "2", "s_co2": "400
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:19:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:18:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:18:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:18:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:18:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:17:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:17:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:17:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:17:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:17:23 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:17:23 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:17:23 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:17:23 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:17:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:17:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:17:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:17:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff$\x00\x00\x0
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'\x16x\xd4h\x10\xe9\xedP\xaaJ\x0033\xf2U\x85\xe3b\x82\x01\x13\xf5\xf9\xfc\xee\xda\xde 1\xd3\xfb\xed'
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'\x16x\xd4h\x10\xe9\xedP\xaaJ\x0033\xf2U\x85\xe3b\x82\x01\x13\xf5\xf9\xfc\xee\xda\xde 1\xd3\xfb\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x04\x00\
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L'
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L' 32
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x04\x00\
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L'
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'8\x89{P@\xad\xd1\x08\xc0\xb3P-\x97>\x8dh\x95\x08\xfe\x89\xffF\x8eTX\xf5p\xfa\x99\xa4\xa1L' 32
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "0", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "2", "s_co2": "400
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x11\x00\xff\xff\xff\x00\x01\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff$\x00\x00\x0
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc2000223e b'\x16x\xd4h\x10\xe9\xedP\xaaJ\x0033\xf2U\x85\xe3b\x82\x01\x13\xf5\xf9\xfc\xee\xda\xde 1\xd3\xfb\xed'
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'\x16x\xd4h\x10\xe9\xedP\xaaJ\x0033\xf2U\x85\xe3b\x82\x01\x13\xf5\xf9\xfc\xee\xda\xde 1\xd3\xfb\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:16:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:16:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:16:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:16:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:16:20 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 17
+May 21 16:15:48 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:15:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:15:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:15:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:15:22 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:15:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:15:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:15:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:15:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc200035b8 b"\xaa\xefi\x84\xd6\n\xa1-\xd4\x00\x95\xdb\xad\xc9E\xdb\x890+\xdf\xee\xa7\x92.\x04Y\x
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b"\xaa\xefi\x84\xd6\n\xa1-\xd4\x00\x95\xdb\xad\xc9E\xdb\x890+\xdf\xee\xa7\x92.\x04Y\x07?y\xb4\xb0z\xce\xd4\xea|
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_PM25": "65535", "S_CYCLETIME": "3", "S_MODE": "-1", "s_co2": "255", "S_POWER": "0", "S_TVOC": "255", "S_FANSP
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\xff\xff\x00\x03\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff^\x00\x00
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc200035b8 b'~\xa7\x1cd\xc1A\n\xbb\xe4\xe9\x12\xac!\xcd+\x9c\xfa\xe86\x9e\x0e\x19\xdd\x96p\x9c\x7f\xeb\xfcd\xd1G
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/010102/08bc200035b8 b'~\xa7\x1cd\xc1A\n\xbb\xe4\xe9\x12\xac!\xcd+\x9c\xfa\xe86\x9e\x0e\x19\xdd\x96p\x9c\x7f\xeb
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:14:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:14:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:14:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:14:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:13:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:13:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:13:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:13:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:13:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:13:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:13:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:13:19 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'F\x05\xb7\xefR|%\xa2\xdc`A\xd9e}\xef\xed'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'F\x05\xb7\xefR|%\xa2\xdc`A\xd9e}\xef\xed'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {}
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xac\xac\x07\xa1\x01\x01\x03\x00\x00\x05\x00\x00\x00\x00\x00\x00'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'[u\x03f\x7f\x874e;\xb7l\x81/]\xfdM'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'[u\x03f\x7f\x874e;\xb7l\x81/]\xfdM' 16
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'F\x05\xb7\xefR|%\xa2\xdc`A\xd9e}\xef\xed'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'F\x05\xb7\xefR|%\xa2\xdc`A\xd9e}\xef\xed'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {}
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xac\xac\x07\xa1\x01\x01\x03\x00\x00\x05\x00\x00\x00\x00\x00\x00'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'[u\x03f\x7f\x874e;\xb7l\x81/]\xfdM'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'[u\x03f\x7f\x874e;\xb7l\x81/]\xfdM' 16
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'F\x05\xb7\xefR|%\xa2\xdc`A\xd9e}\xef\xed'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'F\x05\xb7\xefR|%\xa2\xdc`A\xd9e}\xef\xed'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {}
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xac\xac\x07\xa1\x01\x01\x03\x00\x00\x05\x00\x00\x00\x00\x00\x00'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc2000223e b'[u\x03f\x7f\x874e;\xb7l\x81/]\xfdM'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'[u\x03f\x7f\x874e;\xb7l\x81/]\xfdM' 16
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 32
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:12:18 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:12:18 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:12:18 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:12:18 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:11:41 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 帧格式不符合状态帧规则
+May 21 16:11:36 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:11:36 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:11:36 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:11:36 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:11:35 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 帧格式不符合状态帧规则
+May 21 16:11:29 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 帧格式不符合状态帧规则
+May 21 16:11:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:11:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:11:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:11:21 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc2000223e b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b'\xcc8\xbb~\xf6git\x16\x96#\xd7h_\xfe\xcf5\xef\xccyk\xeb\x9d\xef\x9aQ\x1e:\x82\x9d\xa5\x066\x13\xfcF\x9a\t\xe0
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_DISPLAY": "1", "S_CYCLETIME": "0", "S_MODE": "-1", "S_PM25": "0", "S_POWER": "0", "S_LOCK": "2", "s_co2": "40
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\x00\x00\x00\x00\xff\xff\xff\xff\x00\xff\x01\x90\xff\xff!\xff\x12\x00\x00
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2'
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc2000223e b'&\xea\xddrT\xc5\x04l\x8b5\xfb\xedW\xc8\xa6\x06,\x12=\xfeF`\x06\x040s|Y\x8a\xfca\xc2' 32
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc20001baa b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  encryptAES b"\xfaL\xc2\x9d\xdc[\xcf\xd6\x88|,7,H\xd5\xbe \xd9pP[9C\xaeU>\x99\xed\xe3\x95^#\xd5\xc4l<?\x90\xad\xea\xb7\xde\
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  response {"S_DISPLAY": "15", "S_CYCLETIME": "3", "S_MODE": "1", "S_PM25": "1", "S_POWER": "1", "S_LOCK": "15", "s_co2": "1
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  decryptAES b'\xaa\xaa\x17\x00!\x00\xff\xff\xff\x00\x01\x00\x03\xff\xff\xff\xff\x00\xff\x00\x90\xff\xff\xff\xff\x14\x00\x00
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-0  got msg 08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa0\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/08bc20001baa b'X\xe5\x90\xc9\x8ft\xf0\xcb\xd2\xbf\xfb\x0c i`\xec\x06\xe1\xf0\xe8y&\x1f\xef{\x98\x8dH\xe0\xac\xa
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: process_response  got msg app/status/ 08bc200035b8 b"\xaa\xefi\x84\xd6\n\xa1-\xd4\x00\x95\xdb\xad\xc9E\xdb\x890+\xdf\xee\xa7\x92.\x04Y\x
+May 21 16:10:59 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  encryptAES b"\xaa\xefi\x84\xd6\n\xa1-\xd4\x00\x95\xdb\xad\xc9E\xdb\x890+\xdf\xee\xa7\x92.\x04Y\x07?y\xb4\xb0z\xce\xd4\xea|
+May 21 16:09:58 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:58 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:58 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:58 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:56 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:09:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:09:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:09:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:09:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:08:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:08:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:08:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:08:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 0
+May 21 16:08:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 2
+May 21 16:08:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 1
+May 21 16:08:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: 33
+May 21 16:08:17 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  response {"S_PM25": "65535", "S_CYCLETIME": "3", "S_MODE": "-1", "s_co2": "255", "S_POWER": "0", "S_TVOC": "255", "S_FANSP
+May 21 16:07:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  decryptAES b'\xaa\xaa\x17\x00\x00\x00\xff\xff\xff\xff\xff\x00\x03\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff^\x00\x00
+May 21 16:07:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: lua-thread-1  got msg 08bc200035b8 b'~\xa7\x1cd\xc1A\n\xbb\xe4\xe9\x12\xac!\xcd+\x9c\xfa\xe86\x9e\x0e\x19\xdd\x96p\x9c\x7f\xeb\xfcd\xd1G
+May 21 16:07:57 iZbp1ahrh9rs0e4ovknuwcZ python[21291]: on_message----dev/status/010102/08bc200035b8 b'~\xa7\x1cd\xc1A\n\xbb\xe4\xe9\x12\xac!\xcd+\x9c\xfa\xe86\x9e\x0e\x19\xdd\x96p\x9c\x7f\xeb

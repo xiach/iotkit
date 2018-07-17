@@ -1,0 +1,53 @@
+map $http_upgrade $connection_upgrade {
+    default upgrade;
+    '' close;
+}
+
+upstream websocket {
+    server 127.0.0.1:61625;
+}
+
+server {
+    listen                          443 ssl;
+    server_name                     smart.royalcloud-tech.com;
+    access_log                      ./logs/smart.ssl.access.log     main;
+    error_log                       ./logs/smart.ssl.error.log      notice;
+
+    ssl_certificate /etc/letsencrypt/live/smart.royalcloud-tech.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/smart.royalcloud-tech.com/privkey.pem;
+
+
+    gzip on;
+    gzip_min_length 1k;
+    gzip_buffers 4 16k;
+    gzip_http_version 1.0;
+    gzip_comp_level 2;
+    gzip_types text/plain text/css application/javascript text/javascript application/x-javascript text/xml application/xml application/xml+rss application/json;
+    gzip_vary off;
+    gzip_disable "MSIE [1-6]\.";
+
+    location /mqtt {
+	proxy_pass http://websocket;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real_IP $remote_addr;
+        proxy_set_header X-Forwarded-For $remote_addr;
+
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+    }
+
+    location /upload/ {
+        include uwsgi_params;
+        uwsgi_pass 127.0.0.1:38002;
+    }
+
+    location /api/ {
+        include uwsgi_params;
+        uwsgi_pass 127.0.0.1:38002;
+    }
+
+    location / {
+        alias    /data0/alpha/smart/admin/;
+    }
+}

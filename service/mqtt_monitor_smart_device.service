@@ -1,0 +1,15 @@
+[Unit]
+Description=mqtt monitor(client<===>monitor<===>device)
+After=network.target
+
+[Service]
+Type=simple
+PIDFile=/data0/alpha/mqtt_monitor_smart_device.pid
+
+ExecStartPre=
+ExecStart=/data0/alpha/env_alpha/bin/python /data0/alpha/smart/backend/utils/monitor.pyc -p app/status/ -s dev/status/ -a http://smart.royalcloud-tech.com:8080 
+ExecStop=/bin/kill -HUP $MAINPID
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
