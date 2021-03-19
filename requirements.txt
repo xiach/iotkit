@@ -15,7 +15,7 @@ hyper==0.7.0
 hyperframe==3.2.0
 idna==2.6
 itypes==1.1.0
-Jinja2==2.9.6
+Jinja2==2.11.3
 jpush==3.3.0
 lupa==1.6
 Markdown==2.6.9
